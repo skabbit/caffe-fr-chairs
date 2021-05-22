@@ -780,7 +780,7 @@ void DataAugmentationLayer<Dtype>::array_to_coeff(Dtype* in, AugmentationCoeff& 
 
 
 #ifdef CPU_ONLY
-STUB_GPU(DataAugmentationLayer);
+// STUB_GPU(DataAugmentationLayer);
 #endif
 
 INSTANTIATE_CLASS(DataAugmentationLayer);
